@@ -108,8 +108,9 @@ Description: The following several classes of frailty models using a
     application, in a local mode or by following the link below.
 License: GPL (>= 2.0)
 URL:
-        https://virginie1rondeau.wixsite.com/virginierondeau/software-frailtypack
-        https://frailtypack-pkg.shinyapps.io/shiny_frailtypack/
+    https://github.com/vrondeau/frailtypack,
+    https://frailtypack-pkg.shinyapps.io/shiny_frailtypack/
+BugReports: https://github.com/vrondeau/frailtypack/issues
 Depends: boot, doBy, MASS, R (>= 3.5.0), survC1, survival
 Imports: graphics, matrixcalc, nlme, rootSolve, shiny, splines,
         statmod, stats, utils, dplyr, marqLevAlg, tidyr,
