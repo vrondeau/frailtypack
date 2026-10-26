@@ -1,0 +1,11 @@
+.DS_Store
+MD5
+build/
+*.o
+*.mod
+*.so
+*.dll
+*.dylib
+.Rhistory
+.Rproj.user/
+inst/shiny_frailtypack/rsconnect/
