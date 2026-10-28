@@ -1,3 +1,4 @@
+
 test_that("slope handles numeric, character and factor variables", {
   x_num <- c(0, 1, 0, 1)
   x_char <- c("A", "B", "A", "B")
@@ -21,10 +22,9 @@ test_that("frailtyPenal fits a model on readmission data", {
   
   expect_s3_class(mod, "frailtyPenal")
   expect_true(all(is.finite(mod$coef)))
+  expect_equal(
+    unname(mod$coef),
+    c(0.3354923, 1.1057064, 0.5049202, 0.4171215),
+    tolerance = 0.01
+  )
 })
-
-expect_equal(
-  unname(mod$coef),
-  c(0.3354923, 1.1057064, 0.5049202, 0.4171215),
-  tolerance = 0.01
-)
