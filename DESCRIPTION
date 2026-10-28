@@ -114,7 +114,11 @@ BugReports: https://github.com/vrondeau/frailtypack/issues
 Depends: boot, doBy, MASS, R (>= 3.5.0), survC1, survival
 Imports: graphics, matrixcalc, nlme, rootSolve, shiny, splines,
         statmod, stats, utils, dplyr, marqLevAlg, tidyr,
-Suggests: knitr, timereg, rmarkdown
+Suggests: 
+    knitr,
+    timereg,
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Date/Publication: 2025-11-22 23:30:02 UTC
 Encoding: UTF-8
@@ -123,3 +127,4 @@ NeedsCompilation: yes
 Packaged: 2025-11-20 13:30:36 UTC; ab25
 Repository: CRAN
 Config/roxygen2/version: 8.1.0
+Config/testthat/edition: 3
