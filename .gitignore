@@ -9,3 +9,6 @@ build/
 .Rhistory
 .Rproj.user/
 inst/shiny_frailtypack/rsconnect/
+
+*.Rcheck/
+*.tar.gz
